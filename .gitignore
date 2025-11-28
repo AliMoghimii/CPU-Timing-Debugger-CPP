@@ -1,0 +1,69 @@
+#############################
+# Visual Studio
+#############################
+
+# VS cache and temp files
+.vs/
+*.ipch
+*.VC.db
+*.opendb
+*.sdf
+*.cache
+
+# User-specific settings
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build system backups
+*_i.c
+*_p.c
+*.ncb
+*.ilk
+
+#############################
+# Build outputs
+#############################
+
+# Object files
+*.obj
+*.o
+
+# Debug symbols and precompiled headers
+*.pdb
+*.idb
+*.pch
+*.gch
+*.iobj
+*.ipdb
+
+# Build folders (compiled output)
+bin/
+bin32/
+bin64/
+build/
+Build/
+out/
+Output/
+obj/
+out/build/
+
+#############################
+# Vulkan / Shaders
+#############################
+
+# Compiled SPIR-V
+*.spv
+*.spv.json
+
+# Vulkan validation layers cache
+vk_*_cache/
+VkLayer*txt
+
+#############################
+# CMake
+#############################
+
+CMakeFiles/
+CMakeCache.
